@@ -1,0 +1,62 @@
+h1 {
+  color: #f5b461;
+  font-family: 'Parisienne', cursive;
+  font-size: 7.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 18%;
+}
+
+h2 {
+  font-family: 'Parisienne', cursive;
+  color: black;
+  font-size: 5rem;
+  text-align: center;
+}
+
+body, html {
+  height: 100%;
+}
+
+
+/*****************CLASSES****************/
+
+
+
+.scroll-banner {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  background-color: #9ad3bc;
+}
+
+.bgimg1 {
+  background-image: url("Eaton-3.jpg");
+  min-height: 100%;
+  width: 100%;
+  filter: grayscale(50%);
+}
+
+.bgimg2 {
+  background-image: url("rings-2.jpg");
+  min-height: 100%;
+  width: 100%;
+  filter: grayscale(50%);
+}
+
+.bgimg3 {
+  background-image: url("twoblackdogs.jpeg");
+  min-height: 100%;
+  width: 100%;
+  filter: grayscale(50%);
+}
+
+
+.bgimg1, .bgimg2, .bgimg3 {
+  position: relative;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
